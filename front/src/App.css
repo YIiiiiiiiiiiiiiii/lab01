@@ -1,7 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+App.css
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
@@ -10,32 +11,20 @@ body {
   min-height: 100vh;
 }
 
-.title {
-  padding: 1rem;
-  text-align: center;
-}
-
-.sub-title {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.input {
-  width: 30%;
-}
-
 .main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; /* 水平置中 */
   padding: 47px;
   gap: 1rem;
-  background-color: rgb(243, 243, 243);
-  flex-grow: 1; /* 區塊填滿剩餘空間 */
 }
 
 .Card {
-  box-shadow: 2px 2px 4px rgb(233, 233, 233);
+  border: solid 1px #212121;
+  border-radius: .3rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1% 2%;
 }
